@@ -1,0 +1,231 @@
+/* ==================== header-section =================== */
+  .header-section{
+  background-color: #ffffff;
+  height: 82px;
+  padding-top: 22px;
+  }
+
+   .navbar{
+  display: inline-block;
+  margin-top: 12px;
+  }
+  
+  .navbar ul {
+  display: inline-block;
+  }
+  
+  .navbar ul li{
+  display: inline-block;
+  }
+   
+
+  .navbar ul li a{
+  color : #006a4d;
+  font-size: 18px;
+  position: relative;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0 20px 14px;
+  }
+  
+  .navbar ul li a:hover{
+  color: #69be28;
+  transition: all 0.7s ease-in-out;
+  }
+  
+  .navbar ul li a::after{
+  content: '';
+  background-color:  #69be28;
+  height: 4px;
+  position: absolute;
+  width: 0;
+  left: 0;
+ bottom: 0;
+  }
+  
+  .navbar ul li a:hover::after{
+  width: 100%;
+  transition: all 0.7s ease-in-out;
+  }  
+
+  .header .register .button{
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #69be28;
+  text-transform: uppercase;
+  height: 50px;
+  width: 116px;
+  border-radius: 0%;
+  border: none;
+  color: #fff;
+  margin-top: 10px;
+  } 
+  
+  /* ==================== hero-section =================== */
+  
+  .heroSection{
+  background-color: rgb(0, 106, 77,0.4);
+  height: 400px;
+  position: relative;
+  width: 100%;
+  }
+
+  .heroSection  img{
+    position: relative;
+	  z-index: -1;
+  }
+  
+
+  .heroSection .text{
+    position: absolute;
+    top:50%;
+   	left:50%;
+	  transform:translate(-50%,-50%);
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .heroSection .text .p1{
+   font-size: 32px;
+   margin-bottom: 20px;
+  }
+  
+   .heroSection .text .p2{
+    font-size: 52px;
+    padding-bottom: 24px;
+    position: relative;
+   }
+
+   .heroSection .text .p2::after{
+     content: '';
+     background-color:  #fff;
+     height: 2px;
+     position: absolute;
+     width: 0;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     margin-bottom: 18px;
+   }
+
+  
+   .header-section.text .p3{
+      font-size: 22px;
+   }
+
+
+     /* ==================== introSection =================== */
+
+
+     .introSection{
+      padding: 122px 0 124px 0;
+     }
+
+    .introSection .heading1, .introSection .heading5 {
+      color: #006a4d;
+    }
+
+    .introSection .heading1{
+      margin-bottom: 18px;  
+    }
+
+    .introSection .para{
+      margin-bottom: 24px;
+    }
+
+    .introSection .heading5 , .introSection .para1{
+      margin-bottom: 12px;
+    }
+
+
+      /* ==================== speakers-section =================== */
+
+      .speakers-section{
+        padding: 98px 0;
+        background-color: #006a4d;
+        color: #fff;
+      }
+
+      .speakers-section .speakers .pri-heading{
+           margin-bottom: 24px;
+      }
+
+      .speakers-section .speakers .para {
+        margin-bottom: 46px;
+      }
+
+
+     .speakersInfo:last-child{
+      margin-right: 0;
+     }
+     
+     .speakersInfo h5{
+      margin-bottom: 10px;
+     }
+
+     .speakersInfo figure img{
+      height: 160px;
+      width: 160px;
+      border-radius: 50%;
+      border: 2px solid #fff;
+
+     }
+
+     .speakers-row{
+      margin-bottom: 68px;
+     }
+
+     .btnspeakers a{
+      color:#fff;
+      font-size:18px;
+      padding:17px 25px;
+      border:3px solid white;
+      margin-top:72px;
+    }
+
+    /* =========================  footer-section =========================*/
+
+    .footer-section{
+	    background-color:#3b3b3b;
+      height:228px;
+      color:#fff;
+     }
+
+     .icon{
+      margin-top: 134px;
+     }
+     
+     
+     .social-icon ul li{
+       display:inline-block;
+     }
+     
+     .follow{
+       font-weight:bold;
+       font-size:18px;
+       text-transform:uppercase;
+       padding-top:85px;
+       margin-bottom:18px;
+     }
+     
+
+     .in{
+       width:35px;
+       height:35px;
+       padding:6px 6px 6px;
+       border:1px solid white;
+       border-radius:50%;
+       text-align:center;
+       color:#fff;
+       font-weight:bold;
+       
+     }
+     
+     .socialIcon{
+       padding:8px 8px;
+       border:1px solid white; 
+       border-radius:50%;
+       color:#fff;
+       size:20px;
+     }
